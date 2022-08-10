@@ -1,0 +1,228 @@
+a {
+  color: #0060B6;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #00A0C6;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+body {
+  background-color: white;
+}
+
+.center {
+  text-align: center;
+  align-items: center;
+  background-position: center center;
+  height: 100%;
+  width: 100%;
+  margin: 25px;
+}
+
+.floatleft {
+  text-align: left;
+  float: left;
+  align-items: flex-start;
+  background-position: left;
+  height: 100%;
+  width: 100%;
+  margin: 25px;
+}
+
+.navbar {
+  list-style-type: none;
+  margin: -8px -8px 30px -8px;
+  padding: 0;
+  border: 1px solid #e7e7e7;
+  background-color: #f3f3f3;
+  overflow: hidden;
+}
+
+.navbar li {
+  float: left;
+}
+
+.navbar a {
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+.classbutton {
+  background-color: #4CAF50;
+  /* Green */
+  border: 2px solid #000000;
+  /* Black */
+  border-radius: 4px;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.classbutton:hover {
+  background-color: #4CAF50;
+  /* Green */
+  color: red;
+}
+
+.extraclass {
+  background-color: Brown;
+  /* Brown */
+  border: 2px solid #000000;
+  /* Black */
+  border-radius: 4px;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.extraclass:hover {
+  background-color: #000000;
+  /* Black */
+  color: aqua;
+}
+
+#testbutton {
+  color: blue;
+  background-color: Yellow;
+}
+
+#testbutton:hover {
+  color: black;
+  background-color: aqua;
+}
+
+.testhr {
+  border: 5px solid green;
+  border-radius: 5px;
+  border-collapse: collapse;
+  background-color: green;
+}
+
+.testhr2 {
+  border: 2px solid Pink;
+  border-radius: 10px;
+  border-collapse: collapse;
+  background-color: Pink;
+}
+
+.testhr2:hover {
+  border: 2px solid green;
+  border-radius: 10px;
+  border-collapse: collapse;
+  background-color: green;
+}
+
+.testhr:hover {
+  border: solid 5px blue;
+  border-radius: 5px;
+  border-collapse: collapse;
+}
+
+.ul-a {
+  list-style-type: square;
+  list-style-position: inside;
+  background: #3399ff;
+  padding: 20px;
+}
+
+.ol-a {
+  list-style-type: upper-alpha;
+  list-style-position: inside;
+  background: Pink;
+  padding: 20px;
+}
+
+table, td {
+  width: 50%;
+  border-style: hidden;
+  border-collapse: collapse;
+  margin: 20px auto;
+}
+
+th, tfoot {
+  padding-top: 11px;
+  text-align: center;
+  padding-bottom: 11px;
+  background-color: green;
+  color: white;
+  border-collapse: collapse;
+}
+
+tr:nth-child(even) {
+  background: AliceBlue;
+}
+
+#testWD {
+  margin-top: 40px;
+}
+
+input {
+  background-color: White;
+  color: Black;
+  border: 2px solid Green;
+  padding: 5px;
+  margin: 10px;
+  text-align: center;
+}
+
+input[type=password] {
+  background-color: White;
+  color: Black;
+  border: 2px solid Green;
+  padding: 5px;
+  margin: 10px;
+}
+
+input[type=submit] {
+  background-color: White;
+  color: Black;
+  border: 2px solid Green;
+  padding: 10px;
+  margin: 5px;
+}
+
+input:focus {
+  background-color: Green;
+  color: White;
+}
+
+input[type=checkbox] {
+  height: 20px;
+  width: 20px;
+  margin-left: 20px;
+  background-color: green;
+}
+
+input[type=checkbox]:checked {
+  background-color: Green;
+}
+
+input {
+  margin: 10px;
+}
+
+textarea {
+  margin: 10px;
+  background-color: White;
+  color: Black;
+  border: 2px solid Green;
+  padding: 5px;
+  text-align: center;
+}
